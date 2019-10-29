@@ -3,9 +3,9 @@ import styled from "styled-components"
 
 
 
-const Input = ({type, placeholder, name, value, id}) => {
+const Input = ({type, placeholder, name, id}) => {
     return (
-        <InputField id={id} type={type} name={name} placeholder={placeholder} value={value}></InputField>
+        <InputField id={id} type={type} name={name} placeholder={placeholder}></InputField>
     );
 };
 

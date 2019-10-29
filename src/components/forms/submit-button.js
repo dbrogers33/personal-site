@@ -4,9 +4,7 @@ import styled from "styled-components";
 
 const Button = ({ buttonLabel, type }) => {
     return (
-
-        <YellowButton type={type}>{buttonLabel}</YellowButton>
-        
+        <YellowButton type={type} value={buttonLabel}/>
     );
 };
 
@@ -24,7 +22,7 @@ Button.defaultProps = {
 
 
 
-const YellowButton = styled.button`
+const YellowButton = styled.input`
     text-decoration: none;
     background: #FFCC00;
     padding: 1.25em 3em;
