@@ -7,6 +7,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://denhamrogers.us20.list-manage.com/subscribe/post?u=12b0b4856fcb2bb2c278c9ef0&amp;id=08fe456388', // add your MC list endpoint here; see instructions below
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

@@ -39,8 +39,10 @@ const Process = () => {
 };
 
 const Flex = styled.div`
-    display: grid;
-    grid-template-columns: 50% 50%;
+    @media(min-width: 800px) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 `
 
 
