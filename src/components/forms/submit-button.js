@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Button = ({ buttonLabel, type }) => {
     return (
-        <YellowButton type={type} value={buttonLabel}/>
+        <YellowButton type={type} value={buttonLabel} />
     );
 };
 
