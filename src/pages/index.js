@@ -30,7 +30,7 @@ const IndexPage = ( ) => (
 )
 
 const Contact = styled.section`
-
+  padding: 10rem 0;
 `
 
 export default IndexPage

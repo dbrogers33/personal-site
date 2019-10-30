@@ -1,7 +1,6 @@
 import React from 'react'
 import Topography from '../components/topography'
 import H1 from '../components/typography/h1'
-import Container from '../components/container'
 import P from '../components/typography/p'
 import H3 from '../components/typography/h3'
 import Button from '../components/button'

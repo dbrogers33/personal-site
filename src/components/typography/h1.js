@@ -18,7 +18,7 @@ h1.defaultProps = {
 };
 
 const H1 = styled.h1`
-    font-family: 'Work Sans';
+    font-family: 'Open Sans';
     color: #21201E;
     font-weight: 900;
     font-size: 2rem;

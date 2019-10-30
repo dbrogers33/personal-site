@@ -10,7 +10,7 @@ const Process = () => {
     return (
         <Topography>
             <Container>
-                <H1>Where do we start??</H1>
+                <H1 textAlign="center">Where do we start??</H1>
                 <Flex>
                     <Card
                         number="1"

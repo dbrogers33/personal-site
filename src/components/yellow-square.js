@@ -12,7 +12,7 @@ const p = ({ children }) => {
 const YellowSquare = styled.div`
     background: #FFCC00 0% 0% no-repeat padding-box;
     border: 3px solid #000000;
-    font-family: 'Work Sans';
+    font-family: 'Open Sans';
     font-weight: 900;
     width: 50px;
     text-align: center;

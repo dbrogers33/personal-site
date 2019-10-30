@@ -18,7 +18,7 @@ h3.defaultProps = {
 
 const H3 = styled.h3`
     font-display: auto;
-    font-family: 'Work Sans';
+    font-family: 'Open Sans';
     text-decoration: underline;
     font-weight: 600;
     text-align: ${props => props.textAlign};

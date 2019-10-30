@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         google: {
-          families: ['Work+Sans:100,200,300,400,500,600,700,800,900', 'Crimson+Pro:300,400,500,600,700']
+          families: ['Open+Sans:300,400,600,700,800', 'Crimson+Pro:300,400,500,600,700']
         }
       }
     },

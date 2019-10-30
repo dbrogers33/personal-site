@@ -27,7 +27,7 @@ const YellowButton = styled.input`
     background: #FFCC00;
     padding: 1.25em 3em;
     display: inline-block;
-    font-family: 'Work Sans';
+    font-family: 'Open Sans';
     font-size: 1.25rem;
     color: #000000;
     font-weight: 700;
