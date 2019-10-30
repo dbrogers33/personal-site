@@ -18,12 +18,14 @@ const InputField = styled.input`
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
-    margin-top: .5em;
-    margin-bottom: .5em;
     border: 1px solid gray;
     color: black;
     letter-spacing: .1em;
     padding: 1em;
+    margin: .5em 0;
+    @media(min-width: 800px) {
+        margin: 0;
+    }
 `
 
 export default Input;

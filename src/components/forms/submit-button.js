@@ -33,10 +33,10 @@ const YellowButton = styled.input`
     font-weight: 700;
     text-align: ${props => props.textAlign};
     transition: .25s ease;
+    border: none;
+    cursor: pointer;
     &:hover {
-        background: #FFCC00;
-        box-shadow: 0px 4px 7px rgba(33,32,30, .17);
-        margin: -.1em 0 .1em 0;
+        background: #ecbd00;
     }
 `;
 

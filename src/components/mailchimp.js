@@ -2,7 +2,16 @@ import addToMailchimp from 'gatsby-plugin-mailchimp'
 import Input from './forms/input'
 import React from "react"
 import Button from './forms/submit-button'
+import styled from 'styled-components'
 
+
+const Grid = styled.div`
+    @media(min-width: 800px) {
+        display: grid;
+        grid-template-columns: 38% 38% auto;
+        justify-content: space-between;
+    }
+`
 
 // reference: https://github.com/jlengstorf/strapi-gatsby/blob/603f7009808260dcd145a1cbbba34cd411bf3353/site/src/components/newsletterSignup.js
 
@@ -44,9 +53,11 @@ export default class IndexPage extends React.Component {
     render() {
     return (
       <form onSubmit={this._handleSubmit}>
-        <Input type="name" name="name" placeholder="Your name" onChange={this._handleChange} />
-        <Input type="email" name="email" placeholder="Your email" onChange={this._handleChange} />
-        <Button type="submit" buttonLabel="Get Started" />
+        <Grid>
+            <Input type="name" name="name" placeholder="Your name" onChange={this._handleChange} />
+            <Input type="email" name="email" placeholder="Your email" onChange={this._handleChange} />
+            <Button type="submit" buttonLabel="Get Started" />
+        </Grid>
       </form>
     )
   }

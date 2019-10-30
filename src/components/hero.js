@@ -13,16 +13,16 @@ const Hero= () => {
         <Flex>
             <Column>
             <Topography>
-                <Container>
+          
                     <Padding>
-                        
+                        <div>
                         <H3>Nice to meet you.</H3>
                         <H1>I'm Denham Rogers.</H1>
                         <P>I build websites that are high quality, low-maintance, and centered around your business goals. After all, a website is an investment and I want to show you a return. Sound like a good fit? Try my getting started guide.</P>
                         <Button link="/" buttonLabel="Get Started" />
-                        
+                        </div>
                     </Padding>
-                </Container>
+                
             </Topography>
             </Column>
             <Column>
@@ -36,8 +36,15 @@ const Hero= () => {
 
 const Padding = styled.div`
     padding: 7em  0 17em 0;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
     @media (min-width: 800px) {
-        padding: 7em  0 0 0;
+        padding: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 `
 
