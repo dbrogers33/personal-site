@@ -10,12 +10,12 @@ const About = () => {
         <Container>
             <Flex>
                 <div>
-                    <H3>Who do I build websites for?</H3>
-                    <P>Thanks for taking the time to get in contact. If you fill out the form below, I’ll send you my free getting started guide that will see if we’re a good fit!</P>
-                    <P>I just completed this project <ExternalLink href="https://lovelessoutdooradventures.com" target="_blank">here</ExternalLink>.</P>
+                    <H3>I don't build websites for just anybody...</H3>
+                    <P>So who do I build them for? People and businesses that understand that a website is an investment and not just a check in the box for starting a business. Because when I work with a client, it's a partnership. I care about your business doing the best that it can using my expertises. Sound like a good fit?</P>
+                    <P>Here's a project I just finished: <ExternalLink href="https://lovelessoutdooradventures.com" target="_blank">here</ExternalLink>.</P>
                 </div>
                 <div>
-                    <H2>Your business is unique, your website should be too.</H2>
+                    <H2>I build from the ground up custom websites for businesses like yours.</H2>
                 </div>
             </Flex>
         </Container>
@@ -23,6 +23,7 @@ const About = () => {
 };
 
 const Flex = styled.div`
+    margin: 4rem 0;
     @media(min-width: 800px) {
         display: grid;
         grid-template-columns: 45% 45%;

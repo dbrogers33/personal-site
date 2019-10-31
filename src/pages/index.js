@@ -19,10 +19,10 @@ const IndexPage = ( ) => (
       <About />
       <MyProcess />
       <Contact>
-        <Container>
-          <H2 textAlign="center">Let's Talk</H2>
+        <Container id="#contact">
+          <H2 textAlign="center">Ready? Get the Guide</H2>
           <ParagraphWrapper>
-          <P textAlign="center">Thanks for taking the time to get in contact. If you fill out the form below, I’ll send you my free getting started guide that will see if we’re a good fit!</P>
+          <P textAlign="center">Here it is. The free guide I've been talking about. Fill out the form, get the guide. If you don't want to proceed any further after that, just discard it and I'll never bother you again. Cheers to hopefully doing business together in the future.</P>
           </ParagraphWrapper>
           <Mailchimp />
         </Container>
@@ -32,7 +32,10 @@ const IndexPage = ( ) => (
 )
 
 const Contact = styled.section`
-  padding: 10rem 0;
+  padding: 6rem 0;
+  @media(min-width: 800px) {
+    padding: 10rem 0;
+  }
 `
 const ParagraphWrapper = styled.div`
   max-width: 100%;

@@ -17,16 +17,16 @@ const Hero= () => {
                         <div>
                         <H3>Nice to meet you.</H3>
                         <H1>I'm Denham Rogers.</H1>
-                        <P>I build websites that are high quality, low-maintance, and centered around your business goals. After all, a website is an investment and I want to show you a return. Sound like a good fit? Try my getting started guide.</P>
-                        <Button link="/" buttonLabel="Get Started" />
+                        <P>I build websites that look good, perform well, and business centric. If you are looking for someone who's good, easy to work with, and actually is responsive to your emails, calls, and text.. I'm your guy. Want to see if we're a good fit to work together? Get my <u>FREE</u> getting started guide.</P>
+                        <Button link="#contact" buttonLabel="Get the Guide" />
                         </div>
                     </Padding>
                 
             </Topography>
             </Column>
             <Column>
-            <ProfileWrapper>
-                <Profile />
+                <ProfileWrapper>
+                    <Profile />
                 </ProfileWrapper>
             </Column>
         </Flex>
@@ -61,6 +61,11 @@ const Column = styled.div`
         flex-direction: column;
         flex-basis: 100%;
         flex: 1;
+    }
+    @media (max-width: 800px) {
+        &:nth-child(2) {
+            margin-bottom: -12rem;
+        }
     }
 `
 

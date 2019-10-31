@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
 
-const Container = ({ children }) => {
+const Container = ({ children, id }) => {
     return (
-        <Wrap>{children}</Wrap>
+        <Wrap id={id}>{children}</Wrap>
     );
 };
 
