@@ -26,7 +26,7 @@ const H3 = styled.h3`
     margin-top: 0;
     margin-bottom: .5em;
         @media (min-width: 800px) {
-            font-size: 1.75rem;
+            font-size: 1.25rem;
         }
     }
 `

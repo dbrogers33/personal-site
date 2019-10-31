@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './container'
-import H1 from './typography/h1'
+import H2 from './typography/h2'
 import Topography from './topography-white'
 import styled from "styled-components"
 import Card from './card'
@@ -10,7 +10,7 @@ const Process = () => {
     return (
         <Topography>
             <Container>
-                <H1 textAlign="center">Where do we start??</H1>
+                <H2 textAlign="center">Where do we start??</H2>
                 <Flex>
                     <Card
                         number="1"
