@@ -13,7 +13,12 @@ import Mailchimp from '../components/mailchimp'
 
 
 const IndexPage = ( ) => (
-  <Layout>
+  <Layout
+    title="Denham Rogers | Web development and design for outdoor businesses"
+    description="I build great websites for great businesses around the country. I specialize in the outdoor industry but always looking to take on new challenges."
+    keywords="Outdoor Website Developer"
+    image="/meta.jpg"
+  >
     <main>
       <Hero />
       <About />
