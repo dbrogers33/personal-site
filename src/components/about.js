@@ -23,13 +23,15 @@ const About = () => {
 };
 
 const Flex = styled.div`
-    margin: 4rem 0;
     @media(min-width: 800px) {
         display: grid;
         grid-template-columns: 45% 45%;
         justify-content: space-between;
         margin: 5rem 0;
         align-items: center;
+    }
+    & > div {
+        margin: 4rem 0;
     }
 `
 const ExternalLink = styled.a`
