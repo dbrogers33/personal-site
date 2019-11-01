@@ -19,7 +19,7 @@ const IndexPage = ( ) => (
       <About />
       <MyProcess />
       <Contact>
-        <Container id="#contact">
+        <Container id="contact">
           <H2 textAlign="center">Ready? Get the Guide</H2>
           <ParagraphWrapper>
           <P textAlign="center">Here it is. The free guide I've been talking about. Fill out the form, get the guide. If you don't want to proceed any further after that, just discard it and I'll never bother you again. Cheers to hopefully doing business together in the future.</P>

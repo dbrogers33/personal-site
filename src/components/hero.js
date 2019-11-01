@@ -6,6 +6,7 @@ import H3 from '../components/typography/h3'
 import Button from '../components/button'
 import styled from "styled-components"
 import Profile from '../components/profile'
+import { Link } from 'gatsby'
 
 const Hero= () => {
     return (
@@ -18,7 +19,7 @@ const Hero= () => {
                         <H3>Nice to meet you.</H3>
                         <H1>I'm Denham Rogers.</H1>
                         <P>I build websites that look good, perform well, and business centric. If you are looking for someone who's good, easy to work with, and actually is responsive to your emails, calls, and text.. I'm your guy. Want to see if we're a good fit to work together? Get my <u>FREE</u> getting started guide.</P>
-                        <Button link="#contact" buttonLabel="Get the Guide" />
+                        <Button link="/#contact" buttonLabel="Get the Guide" />
                         </div>
                     </Padding>
                 

@@ -6,6 +6,10 @@ import Logo from '../components/logo'
 
 class Welcome extends React.Component {
     render() {
+        if (typeof window !== "undefined") {
+            // eslint-disable-next-line global-require
+            require("smooth-scroll")('a[href*="#"]')
+          }
         return (
             <div>
                 <Helmet>
