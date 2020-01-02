@@ -11,11 +11,11 @@ const About = () => {
             <Flex>
                 <div>
                     <H3>I don't build websites for just anybody...</H3>
-                    <P>So who do I build them for? People and businesses that understand that a website is an investment and not just a check in the box for starting a business. Because when I work with a client, it's a partnership. I care about your business doing the best that it can using my expertises. Sound like a good fit?</P>
+                    <P>I build websites for businesses that really want to take their business to the next level. I get along with people who work hard and know that a website is investment in the future.</P>
                     <P>Here's a project I just finished: <ExternalLink href="https://lovelessoutdooradventures.com" target="_blank">here</ExternalLink>.</P>
                 </div>
                 <div>
-                    <H2>I build from the ground up custom websites for businesses like yours.</H2>
+                    <H2>Taking outdoor focused companies websites to the next level.</H2>
                 </div>
             </Flex>
         </Container>

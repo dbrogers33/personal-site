@@ -9,13 +9,10 @@ import H2 from '../components/typography/h2'
 import P from '../components/typography/p'
 import Mailchimp from '../components/mailchimp'
 
-
-
-
 const IndexPage = ( ) => (
   <Layout
     title="Denham Rogers | Web development and design for outdoor businesses"
-    description="I build great websites for great businesses around the country. I specialize in the outdoor industry but always looking to take on new challenges."
+    description="I build and design high performance website for great outdoor companies."
     keywords="Outdoor Website Developer"
     image="/meta.jpg"
   >
