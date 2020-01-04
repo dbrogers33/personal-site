@@ -15,7 +15,7 @@ const About = () => {
                     <P>Here's a project I just finished: <ExternalLink href="https://lovelessoutdooradventures.com" target="_blank">here</ExternalLink>.</P>
                 </div>
                 <div>
-                    <H2>Taking outdoor focused companies websites to the next level.</H2>
+                    <H2>Leveling up your website and brand to an enterpise level.</H2>
                 </div>
             </Flex>
         </Container>

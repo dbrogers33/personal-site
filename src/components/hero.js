@@ -18,7 +18,7 @@ const Hero= () => {
                         <div>
                         <H3>Nice to meet you.</H3>
                         <H1>I'm Denham Rogers.</H1>
-                        <P>I design and build high performance websites for outdoor companies that want to take it to the next level of professionalism. Find out how I've helped other businesses in my getting started guide.</P>
+                        <P>I design and build high performance websites for companies that want to take it to the next level of professionalism. Find out how I've helped other businesses in my getting started guide.</P>
                         <Button link="/#contact" buttonLabel="Get the Guide" />
                         </div>
                     </Padding>
